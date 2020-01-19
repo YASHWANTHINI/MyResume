@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Ghost type</title>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<body>
+ <h1 class="intro-title mb-4">I am Morgan Freeman</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
+<script>
+(function ($) {
+if ($('.text-slider').length == 1) {
+    var typed_strings = $('.text-slider-items').text();
+		var typed = new Typed('.text-slider', {
+			strings: typed_strings.split(','),
+			typeSpeed: 80,
+			loop: true,
+			backDelay: 1100,
+			backSpeed: 30
+		});
+	}
+	})(jQuery);
+</script>
+
+</body>
+</html>
