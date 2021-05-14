@@ -1,2 +1,2 @@
 # MyResume
-If you wanna visualise my design instead of run the code then find Screenshot.docx and open it......
+Use BitBucket or htmlpreview to view
